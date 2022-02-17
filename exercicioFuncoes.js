@@ -1,6 +1,4 @@
 /*Funções Simples
-Crie uma função que calcule o valor da sua hora de trabalho, tendo como parâmetro o seu salário mensal.
-PS: considere que você trabalhe 160 horas no mês.
 Crie a função calculadora de IMC* de uma pessoa, que recebe a altura em centímetros e o peso em quilogramas. Em seguida, execute a função, testando diferentes valores. 
 *IMC, significa Índice de Massa Corporal e é um parâmetro utilizado para saber se o peso está de acordo com a altura.*/
 
@@ -40,3 +38,14 @@ function calPet (idadePet){
 }
 
 console.log(calPet(22));
+
+//Crie uma função que calcule o valor da sua hora de trabalho, tendo como parâmetro o seu salário mensal.
+//PS: considere que você trabalhe 160 horas no mês.
+
+
+const horaTrabalhada = 160
+function valorHrMes(salario){
+  return horaTrabalhada / salario
+}
+
+console.log(valorHrMes(1500))
