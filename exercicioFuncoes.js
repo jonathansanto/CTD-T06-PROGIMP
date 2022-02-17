@@ -1,5 +1,4 @@
 /*Funções Simples
-Crie uma função que calcule a idade dos cachorros, considerando que 1 ano humano, equivale a 7 anos para eles.
 Crie uma função que calcule o valor da sua hora de trabalho, tendo como parâmetro o seu salário mensal.
 PS: considere que você trabalhe 160 horas no mês.
 Crie a função calculadora de IMC* de uma pessoa, que recebe a altura em centímetros e o peso em quilogramas. Em seguida, execute a função, testando diferentes valores. 
@@ -28,8 +27,16 @@ console.log(converterURL("jonathan"));
 //Crie uma função que recebe uma string e retorna a mesma frase, mas com o caracter de exclamação ( ! ).
 
 function adcExclamacao (palavra){
-  return palavra + "!"
+  return palavra + "!";
 }
 
-console.log(adcExclamacao("jonathan"))
+console.log(adcExclamacao("jonathan"));
 
+//Crie uma função que calcule a idade dos cachorros, considerando que 1 ano humano, equivale a 7 anos para eles.
+
+const idadeHumana = 7
+function calPet (idadePet){
+  return idadeHumana*idadePet;
+}
+
+console.log(calPet(22));
