@@ -15,6 +15,15 @@ Crie a função calculadora de IMC* de uma pessoa, que recebe a altura em centí
 
 const cm = 2.54 
 function polegadasEmCm(x){
-  return cm * x
+  return cm * x;
 }
 console.log(polegadasEmCm(1));
+
+//Crie uma função que receba uma string e a converta em um URL.
+//ex: "funcaojs" é retornado como "http://www.funcaojs.com.br"
+
+function converterURL(nome){
+    return "http://www." + nome + ".com.br";
+}
+
+console.log(converterURL("jonathan"));
