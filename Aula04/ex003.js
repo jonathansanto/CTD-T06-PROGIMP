@@ -37,3 +37,6 @@ var novaSoma3 = novaSoma2+23
 
 console.log(novaSoma3)
 
+
+
+
