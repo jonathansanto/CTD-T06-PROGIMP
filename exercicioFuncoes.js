@@ -1,6 +1,5 @@
-/*Funções Simples
-Crie a função calculadora de IMC* de uma pessoa, que recebe a altura em centímetros e o peso em quilogramas. Em seguida, execute a função, testando diferentes valores. 
-*IMC, significa Índice de Massa Corporal e é um parâmetro utilizado para saber se o peso está de acordo com a altura.*/
+//Funções Simples
+
 
 
 
@@ -45,7 +44,23 @@ console.log(calPet(22));
 
 const horaTrabalhada = 160
 function valorHrMes(salario){
-  return horaTrabalhada / salario
+  return horaTrabalhada / salario;
 }
 
-console.log(valorHrMes(1500))
+console.log(valorHrMes(1500));
+
+//Crie a função calculadora de IMC* de uma pessoa, que recebe a altura em centímetros e o peso em quilogramas. Em seguida, execute a função, testando diferentes valores. 
+//*IMC, significa Índice de Massa Corporal e é um parâmetro utilizado para saber se o peso está de acordo com a altura.*/
+
+
+var peso = 80
+var altura = 1.80
+
+console.log("Digite seu peso em kg: " + peso);
+console.log("Digite sua altura em metros: " + altura);
+
+function resultado (altura, peso){
+  altura = altura / 100;
+  return (peso / (altura * altura));
+}
+console.log(resultado(180, 80));
