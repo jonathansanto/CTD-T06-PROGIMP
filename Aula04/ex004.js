@@ -15,7 +15,7 @@ console.log (nome + " tem " + idade + " anos " + "e seu índice de massa corpora
 
 
 var nome2 = "Carlos"
-var sobrenome2 = "dae Souza"
+var sobrenome2 = "de Souza"
 var idade2 = 28
 var peso2 = 80.1
 var altura2 = 176
